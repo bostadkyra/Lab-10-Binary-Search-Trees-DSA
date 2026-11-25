@@ -60,7 +60,7 @@ public class BSTTest {
                 heightSum += result.getHeight();
                 findSum += result.getAvgNodesPerFind();
             }
-            System.out.printf("%7d %9d %7d %11.2f %15.2f%n",
+            System.out.printf("%7d %9d %7d %11.2f %15.2f%n", //.2 rounds to two decimal places
                     n, k, trials, heightSum / trials, findSum/trials);
         }
     }
